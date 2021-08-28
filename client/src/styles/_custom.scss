@@ -1,0 +1,14 @@
+@import "./variables";
+
+.c-pointer {
+	cursor: pointer;
+	color: inherit;
+	transition: 0.3s all ease-in-out;
+	&:hover {
+		color: $primary;
+	}
+}
+
+a {
+	text-decoration: none;
+}
