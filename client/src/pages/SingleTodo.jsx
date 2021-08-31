@@ -18,7 +18,7 @@ const SingleTodo = () => {
 			}
 		};
 		getTodo();
-	}, []);
+	}, [id]);
 	return (
 		<div>
 			<ul className="nav flex-column">

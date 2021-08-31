@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
-import styled from "styled-components";
-import TodoComp from "../components/TodoComp";
 import axios from "axios";
-import HeaderComp from "../components/HeaderComp";
+import React, { useEffect, useState } from "react";
+import TodoComp from "../components/TodoComp";
 
 export const SERVER_URL = "http://localhost:8000/todo";
 const HomePage = () => {
